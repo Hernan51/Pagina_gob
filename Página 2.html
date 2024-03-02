@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CURP</title>
+    <link rel="icon" href="/media/favicon-96x96.png">
+    <link rel="stylesheet" href="css/estilospag2.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    </style>
+    <script type="text/javascript" src="js/cambiarPestanna.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar" style="position: fixed; z-index: 2">
+            <img class="logo" src="media/logoheader.svg" style="padding: 10px; margin-left: 10px">
+            <ul style="margin-left: 1450px;;">
+                <li><a id="nav">TRAMITES</a></li>
+                <li><a id="nav">GOBIERNO</a></li>
+            </ul>
+            <img src="media/lupa-blanca.png" class="img" alt="">
+        </div>
+    
+        <div class="barra2" style="display:fixed;top: 60px;">
+            <ol>
+                <lo id="Renapo"><a>RENAPO</a></lo>
+            </ol>
+        </div>
+    </div>
+
+   
+   
+    <div class="container" id="casitaa">
+        <ld>
+            <a title="ir a la pagina principal" href="google.com"></a>
+            <img src="media/images.png" class="img2" style="">
+        </ld>
+        <ld>
+            <a>></a>
+            <a href="index.html" id="fuente">Inicio</a>
+        </ld>
+        <ld>
+            <a>></a>
+            <a> <b>Consulta tu curp </b></a>
+        </ld>
+    </div>
+
+   
+   
+    <div class="container">
+
+        <h1 style="font-size: 54px;top: 80" id="fuente">CONSULTA TU CURP</h1>
+        <img src="media/barradeprogreso.png" style="width: auto;height: 80px; margin-left: 50px;">
+
+
+        <h2 id="fuente" style="font-size: 38px; margin: 25px;">Búsqueda</h2>
+        <div id="line2"> </div>
+        <hr class="red">
+        <div style="margin-left: 25px;color: #404041">
+            <p style="color: black; margin: 1px;">
+                La consulta puede efectuarse indicando la clave CURP cuando ya se le <br>
+                conoce o proporcionando su nombre y datos de nacimiento.
+            </p>
+        </div>
+
+
+
+
+        <section id="main">
+            <div id="tabs" class="container">
+                <span class="cuadro" id="uno"></span>
+                <a href="#uno" class="tab-e">Clave Única de Registro de Población</a>
+                <span class="cuadro" id="dos"></span>
+                <a href="#dos" class="tab-e">Datos Personales</a>
+                <div id="pnl_1">
+                    <div>
+                        <h3>Clave Única de Registro de Población (CURP)*:</h3><br>
+                        <input id="form-control" name="form-control" placeholder="Ingresa tu CURP" type="text">
+
+                        <h4><br>¿No conoces tu CURP?</h4>
+                    </div>
+                </div>
+
+
+                <div id="pnl_2">
+
+                    <div id="row">
+                        <div class="columna-md columna">
+
+                            <label for="Nombre" data-alias="Nombre(s)">
+                                <b>Nombre(s)*:</b>
+                            </label><br><br>
+                            <input id="nombre" name="nombre" placeholder="Ingresa tu nombre(s)" type="text">
+                        </div><br><br>
+
+
+                        <div class="columna-md columna">
+                            <div>
+                                <label for="primer apellido" data-alias="Primer Apellido" class="control">
+                                    <b> Primer apellido*: </b>
+
+                                </label><br><br>
+                                <input id="primerapellido" name="primerapellido" placeholder="Ingresa tu primer apellido" type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="row">
+                        <div class="columa-md columna">
+                            <div class="group">
+                                <label for="primerapellido" data-alias="Segundo Apellido" class="control"> <b>Segundo Apellido(s)*:</b> </label><br><br>
+                                <input id="segundoapellido" name="segundoapellido" placeholder="Ingresa tu segundo apellido" type="text">
+                            </div>
+                        </div><br><br>
+                        <div class="columa-md columna">
+                            <div class="group">
+                                <label for="dianacimiento" class="control"> <b>Dia Nacimiento*:</b></label><br><br>
+                                <select id="dianacimiento" data-alias="Dia de Nacimiento" name="dianacimiento" required="true" type="text">
+                                    <option value disabled selected>Seleccionar el dia</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+
+                                </select>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="row">
+                        <div class="columna-md columna">
+                            <div class="group">
+                                <label for="mesnacimiento" name="mesnacimiento" class="control"> <b>Mes Nacimiento*:</b> </label><br><br>
+                                <select name="mesnacimiento" id="mesnacimiento" class="control" required="true">
+                                    <option value disabled selected>Seleccionar el mes</option>
+                                    <option value="01">01</option>
+                                    <option value="02">02</option>
+                                    <option value="03">03</option>
+                                    <option value="04">04</option>
+                                    <option value="05">05</option>
+                                    <option value="06">06</option>
+                                    <option value="07">07</option>
+                                    <option value="08">08</option>
+                                    <option value="09">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                            </div>
+                        </div><br><br>
+                        <div class="columna-md columna">
+                            <div class="group">
+                                <label for="selectedyear" data-alias="Año de nacimiento" class="control"> <b>Año de nacimiento*:</b> </label><br><br>
+                                <input id="selectedyear" name="selectedyear" placeholder="Ingresa el año Ej.1943" type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="columna-md columna">
+                            <div class="group">
+                                <label for="sexo" data-alias="sexo" class="control"> <b>Sexo*:</b> </label><br><br>
+                                <select name="sexo" id="sexo" class="control" required="true">
+                                    <option value disabled selected>Selecciona el sexo</option>
+                                    <option value="M">Mujer</option>
+                                    <option value="H">Hombre</option>
+                                    <option value="X">No binario</option>
+                                </select>
+                            </div>
+                        </div><br><br>
+                        <div class="columna-md columna">
+                            <div class="group">
+                                <label for="claveentidad" data-alias="estado" class="control"> <b>Estado*:</b> </label><br><br>
+                                <select name="claveentidad" id="claveentidad" class="control" required="true">
+                                    <option value disabled selected>Selecciona el estado</option>
+                                    <option value="AS">Aguascalientes</option>
+                                    <option value="BC">Baja California</option>
+                                    <option value="BS">Baja Clifornia Sur</option>
+                                    <option value="CC">Campeche</option>
+                                    <option value="CL">Coahuila</option>
+                                    <option value="CM">Colima</option>
+                                    <option value="CS">Chiapas</option>
+                                    <option value="CH">Chihuahua</option>
+                                    <option value="DF">Ciudad de Mexico</option>
+                                    <option value="DG">Durango</option>
+                                    <option value="GT">Guanajuato</option>
+                                    <option value="GR">Guerrero</option>
+                                    <option value="HG">Hidalgo</option>
+                                    <option value="JC">Jalisco</option>
+                                    <option value="MC">Estado de Mexico</option>
+                                    <option value="MN">Michoacan</option>
+                                    <option value="MS">Morelos</option>
+                                    <option value="NT">Nayarit</option>
+                                    <option value="NL">Nuevo Leon</option>
+                                    <option value="OC">Oaxaca</option>
+                                    <option value="PL">Puebla</option>
+                                    <option value="QT">Queretaro</option>
+                                    <option value="QR">Quintana Roo</option>
+                                    <option value="SP">San Luis Potosi</option>
+                                    <option value="SL">Sinaloa</option>
+                                    <option value="SR">Sonora</option>
+                                    <option value="TC">Tabasco</option>
+                                    <option value="TS">Tamaulipas</option>
+                                    <option value="TL">Tlaxcala</option>
+                                    <option value="VZ">Veracruz</option>
+                                    <option value="YN">Yucatán</option>
+                                    <option value="ZS">Zacatecas</option>
+                                    <option value="NE">Nacido en el extrangero</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <img class="container "id="captcha" src="media/reCaptcha.png" alt="">
+
+        <div>
+            <div id="campos" class="container">* Campos obligatorios <button id="boton" type="button">
+                    Busqueda
+                </button></div>
+            <div class="container">
+                <br>
+            </div>
+        </div>
+        <hr>
+
+        <div id="alert" class="alert">
+            <strong>¡Sugerencia!</strong>
+            Para solicitar asistencia en el trámite, reportar datos incorrectos o en caso de algún problema, puedes comunicarte al Centro de Atención, de lunes a viernes, de 08:00 a 16:00 horas, a los números telefó<nicos:br></nicos:br>
+            55 5128 0000 extensiones 38198, 38200, 38268, 38270 y 38276 <br>
+            800 911 1111 <br>
+
+            <br> Adicionalmente, es importante señalar que con motivo de la Jornada Nacional de Sana Distancia, en caso de requerir algún cambio o modificación en sus datos puede solicitarlos a través del correo electrónico: tramitecurp@segob.gob.mx
+
+        </div>
+
+        <div id="alerta" class="alerta">
+            <strong>Aviso de privacidad simplificado de consulta de CURP en línea</strong>
+            <br>La recolección de datos personales se lleva a cabo a través de https://www.gob.mx/curp, cuyo administrador y responsable del trámite de CURP es la Dirección General del Registro Nacional de Población e Identidad de la Secretaría de Gobernación. <br>
+
+            <br> Los datos personales que se recaban serán utilizados con la finalidad de buscar, validar y obtener la CURP.
+
+            <br><br> Conoce el aviso de privacidad integral en https://www.gob.mx/curp/privacidadintegral.
+
+        </div>
+
+
+        <footer class="pie-pagina">
+            <a name="footer"></a>
+            <div class="grupo-1">
+                <div class="box">
+
+                    <figure>
+                        <a href="#">
+                            <img src="media/logofooter.png" style="width: 315px;height: 105px; margin: 10px 0px 0px -300px;">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box" style="margin-left: 10px;">
+                    <h6>Enlaces</h6>
+                    <a href="#" id="white">Participa</a><br>
+                    <a href="#" id="white">Publicaciones Oficiales</a><br>
+                    <a href="#" id="white">Marco juridico</a><br>
+                    <a href="#" id="white">Plataforma Nacional de Transparencia</a><br>
+                </div>
+                <div class="box" style="width: 30%;margin-left: 10px;">
+                    <h6>¿Qué es gob.mx?</h6>
+                    <p style="font-size: 13px;" id="foot">Es el portal único de trámites, información, y participacion ciudadana. <a href="#" id="white">Leer más</a></p><br>
+                    <a href="#" style="font-size: 13px;" id="white">Portal de los datos abiertos</a><br>
+                    <a href="#" style="font-size: 13px;" id="white">Declaración de accesibilidad</a><br>
+                    <a href="#" style="font-size: 13px;" id="white">Aviso de privacidad integral</a><br>
+                    <a href="#" style="font-size: 13px;" id="white">Aviso de privacidad simplificado</a><br>
+                    <a href="#" style="font-size: 13px;" id="white">Términos y condiciones</a><br>
+                    <a href="#" style="font-size: 13px;" id="white">Políticas de seguridad</a><br>
+                    <a href="#" style="font-size: 13px;" id="white">Mapa del sitio</a>
+                </div>
+                <div class="box">
+                    <a href="#" id="white">Denuncia contra servidores públicos</a><br><br><br>
+                    <p id="foot">Siguenos en:</p>
+                    <div>
+                        <a href="https://www.facebook.com/gobmexico"><img src="media/facebook.png"></a>
+                        <a href="https://www.twitter.com/GobiernoMX"><img src="media/twitter.png" alt=""></a><br><br>
+                        <a href="#Inicio" style="color: white;">Ir a inicio</a>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <h4 style="font-family: 'Montserrat',sans-serif;font-size: 16px;">Comentarios</h4>
+                <div id="app">
+                    <div id="comments-container"></div>
+                </div>
+                <script src="main.js"></script>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+</body></html>
